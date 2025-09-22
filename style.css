@@ -522,7 +522,7 @@
     font-weight: 400;
     color:#666666;
 }
- @media(max-width: 425px) {
+ @media(max-width: 768px) {
       .container-1{
         flex-direction: column;
         text-align: center;
