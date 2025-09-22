@@ -522,133 +522,34 @@
     font-weight: 400;
     color:#666666;
 }
- @media(max-width: 768px) {
-      .container-1{
-        flex-direction: column;
-        text-align: center;
-        height: 1550px;
-      }
-      .text-content {
-        padding: 0;
-      }
 
-      .bottom{
-        top: 205%;
-        right: -19%;
-        height: 57%;
-        width: 114%;
-        display: flex;
-      }
+.container-2{
+  background-color: #F7F8FC;
+  height:1000px;
+}
 
-      .location{
-        top: 4%;
-        right: 11%;
-        height: 20%;
-        width: 75%;
-      }
-      .where{
-        top: 24%;
-        right: 55%;
-        height: 12%;
-        width: 30%;
-      }
+.container-2 .things-1 h1{
+  display: inline-block;
+  font-family: var(--font-family-alt);
+  font-weight: bold;
+  font-style: normal;
+  font-size: 48px;
+  text-align: center;
+  color: #222222;
+  margin-top: 135px;
+  margin-left: 100px;
+}
 
-      .date{
-        top: 31%;
-        right: 48%;
-        height: 20%;
-        width: 38%;
-      }
-
-      .when{
-        top: 50%;
-        right: 61%;
-        height: 12%;
-        width: 25%;
-      }
-
-      .people{
-        top: 60%;
-        right: 51%;
-        height: 20%;
-        width: 35%;
-      } 
-
-      .guest{
-        top: 80%;
-        right: 50%;
-        height: 20%;
-        width: 35%;
-      }
-
-      .image-content {
-        margin-top: 20px;
-      }
-
-      .now a{
-        top: 242%;
-        right: -10%;
-        height: 9%;
-        width: 37%;
-      }
-
-      .discover a{
-        padding: 11px 15px;
-        top: 91%;
-        right: 20%;
-        height: 9%;
-        width: 40%;
-      }
-
-      .container-1 .plane-1{
-        top: 105%;
-        left: 11%;
-        height: 40%;
-        width: 128%;
-      }
-
-      .eclipse{
-        top: 160%;
-        right: -18%;
-        height: 42%;
-        width: 110%;
-      }
-
-      .container-1 .hero-1{
-        top: 120%;
-        right: -11%;
-        height: 85%;
-        width: 95%;
-      }
-
-      .left p{
-        width: 97%;
-        font-family: var(--font-family);
-        margin: 0px 0px 0px 0px;
-        color: #666666;
-        justify-content: center;
-        text-align: center;
-      }
-
-      .best{
-        height: 11%;
-        width: 35%;
-        top: 130%;
-        right: 62%;
-      }
-
-      .reviews{
-        padding: 5px 15px;
-        top: 175%;
-        right: 52%;
-        height: 12%;
-        width: 38%;
-      }
-
-      .explore{
-        height: 16%;
-        width: 36%;
-        top: 146%;
-        right: -15%;
-      }
-    }
+.container-2 .things-1 h1 span a{
+  color: var(--primary-color);
+  font-family: var(--font-family-alt);
+  text-decoration: none;
+}
+.container-2 .things-1 .plane-2{
+  position: absolute;
+  top: 63em;
+  left: 55%;
+  height: 25%;
+  width: 20%;
+}
+ 
