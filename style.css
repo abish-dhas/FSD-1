@@ -372,16 +372,16 @@
 .discover a{
     position: absolute;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--primary-color);
     display: inline-block;
     cursor: pointer;
     margin: 15px 0px 0px 10px;
     font-family: var(--font-family);
     text-decoration: none;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     border-radius: 6px;
-    padding: 10px 20px;
+    padding: 7px 24px;
     top: 91%;
     right: 78%;
     height: 7%;
@@ -435,7 +435,7 @@
     margin: 15px 0px 0px 10px;
     font-family: var(--font-family);
     text-decoration: none;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     border-radius: 6px;
     padding: 10px 20px;
     top: 109%;
@@ -456,8 +456,9 @@
 .date{
     position: absolute;
     top: 21%;
-    right: 63%;
+    right: 51%;
     height: 30%;
+    width: 20%;
     font-size: medium;
     font-weight: 500;
     border: transparent;
@@ -516,3 +517,18 @@
     font-weight: 400;
     color:#666666;
 }
+ @media(max-width: 425px) {
+      .container-1{
+        flex-direction: column;
+        text-align: center;
+      }
+      .text-content {
+        padding: 0;
+      }
+      .image-content {
+        margin-top: 20px;
+      }
+      .best, .explore, .reviews {
+        display: none; /* hide tags on small screens */
+      }
+    }
