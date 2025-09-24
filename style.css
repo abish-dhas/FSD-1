@@ -6,6 +6,7 @@
     --font-family-alt: 'Volkhov', serif;
     --font-color-1:#222222
     --font-color-2:#666666
+    --gradient-color: linear-gradient(90deg, #FA7436 0%, #FAB236 100%);
 }
 
 *,
@@ -758,11 +759,11 @@
 .deal-1{
   position: absolute;
   top: 117em;
-  left: 6em;
-  height: 62%;
-  width: 22%;
+  left: 5em;
+  height: 60%;
+  width: 17em;
   border-radius: 6px;
-  background-color: aqua;
+ background-color: var(--light-color);
 }
 
 .deal-1 h2{
@@ -811,11 +812,6 @@
   background-color: var(--primary-color);
 }
 
-.deal-1 .img-1{
-  padding-top: 24px;
-  padding-left: 10px;
-}
-
 .deal-1:hover{
   background-color: var(--primary-color);
   color: var(--dark-color);
@@ -828,11 +824,11 @@
 .deal-3{
   position: absolute;
   top: 117em;
-  left: 6em;
-  height: 62%;
-  width: 22%;
+  left: 44em;
+  height: 60%;
+  width: 17em;
   border-radius: 6px;
-  background-color: aqua;
+  background-color: var(--light-color);
 }
 
 .deal-3 h2{
@@ -855,7 +851,7 @@
   display: inline-block;
   text-align: right;
   padding-top: 1em;
-  padding-left: 6em;
+  padding-left: 8em;
   font-size: medium;
   color: #666666;
 }
@@ -881,11 +877,6 @@
   background-color: var(--primary-color);
 }
 
-.deal-3 .img-3{
-  padding-top: 24px;
-  padding-left: 10px;
-}
-
 .deal-3:hover{
   background-color: var(--primary-color);
   color: var(--dark-color);
@@ -895,6 +886,214 @@
   transition: 0.3s;
 }
 
+.deal-4{
+  position: absolute;
+  top: 117em;
+  left: 63.5em;
+  height: 60%;
+  width: 17em;
+  border-radius: 6px;
+  background-color: var(--light-color);
+}
+
+.deal-4 h2{
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  padding-left: 1em;
+}
+
+.deal-4 h5{
+  display: inline-block;
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 2em;
+  font-size: medium;
+  color: #666666;
+}
+
+.deal-4 h3{
+  display: inline-block;
+  text-align: right;
+  padding-left: 4em;
+  font-size: medium;
+  color: #666666;
+}
+
+.deal-4 .star-4{
+  height: 19px;
+  width: 22px;
+}
+
+.deal-4 .location-4{
+  padding: 5px 9px 0px 0px;
+  margin-left: -9px;
+}
+
+.deal-4 a{
+  position: absolute;
+  top: 13em;
+  left: 6em;
+  height: 7%;
+  width: 33%;
+  text-align: center;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+}
+
+.deal-4:hover{
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+  padding: 8px 0px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.deal-2{
+  position: absolute;
+  top: 117em;
+  left: 24.5em;
+  height: 60%;
+  width: 17em;
+  border-radius: 6px;
+  background-color: var(--light-color);
+}
+
+.deal-2 h2{
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  padding-left: 1em;
+}
+
+.deal-2 h5{
+  display: inline-block;
+  text-align: left;
+  padding-top: 0em;
+  padding-left: 2em;
+  font-size: medium;
+  color: #666666;
+}
+
+.deal-2 h3{
+  display: inline-block;
+  text-align: right;
+  padding-top: 1em;
+  padding-left: 6em;
+  font-size: medium;
+  color: #666666;
+}
+
+.deal-2 .star-2{
+  height: 19px;
+  width: 22px;
+}
+
+.deal-2 .location-2{
+  padding: 5px 9px 0px 0px;
+  margin-left: -9px;
+}
+
+.deal-2 a{
+  position: absolute;
+  top: 13em;
+  left: 6em;
+  height: 7%;
+  width: 33%;
+  text-align: center;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+}
+
+.deal-2:hover{
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+  padding: 8px 0px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.deal-1 .strike-1{
+  position: absolute;
+  top: 87%;
+  left: 10em;
+  text-decoration-line: line-through;
+  color: #666666;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  font-weight: 500;
+  font-size: small;
+}
+
+.deal-2 .strike-2{
+  position: absolute;
+  top: 87%;
+  left: 11em;
+  font-weight: 500;
+  font-size: small;
+  text-decoration-line: line-through;
+  color: #666666;
+  padding-left: 1em;
+  padding-top: 0.5em;
+}
+
+.deal-3 .strike-3{
+  position: absolute;
+  top: 87%;
+  left: 12em;
+  text-decoration-line: line-through;
+  color: #666666;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  font-weight:500;
+  font-size: small;
+}
+
+.deal-4 .strike-4{
+  position: absolute;
+  top: 85%;
+  left: 11.5em;
+  text-decoration-line: line-through;
+  color: #666666;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  font-weight:500;
+  font-size: small;
+}
+
+.deal-1 .price-1{
+  display: inline-block;
+  margin-left: 7em;
+  font-weight: 500;
+  background: radial-gradient(transparent, #ff000048);
+  border-radius: 6px;
+  color: red;
+}
+
 .deal-2 .price{
-  padding-left: 9em;
+  margin-left: 7em;
+  font-weight: 500;
+  display: inline-block;
+  background: radial-gradient(transparent, #ff000048);
+  border-radius: 6px;
+  color: red;
+}
+
+.deal-3 .price-2{
+  margin-left: 7em;
+  font-weight: 500;
+  display: inline-block;
+  background: radial-gradient(transparent, #ff000048);
+  border-radius: 6px;
+  color: red;
+}
+ .deal-4 .price-3{
+  margin-left: 7em;
+  font-weight: 500;
+  display:inline-block;
+  background: radial-gradient(transparent, #ff000048);
+  border-radius: 6px;
+  color: red;
 }
