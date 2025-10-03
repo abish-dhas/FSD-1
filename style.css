@@ -704,7 +704,7 @@
 }
 
 .container-3{
-  height:128em;
+  height:56em;
 }
 
 .container-3 .deals h1{
@@ -813,11 +813,10 @@
 }
 
 .deal-1:hover{
-  background-color: var(--primary-color);
   color: var(--dark-color);
   padding: 8px 0px;
   border-radius: 6px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(219, 94, 10, 0.1);
   transition: 0.3s;
 }
 
@@ -878,11 +877,10 @@
 }
 
 .deal-3:hover{
-  background-color: var(--primary-color);
   color: var(--dark-color);
   padding: 8px 0px;
   border-radius: 6px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(219, 94, 10, 0.1);
   transition: 0.3s;
 }
 
@@ -942,11 +940,10 @@
 }
 
 .deal-4:hover{
-  background-color: var(--primary-color);
   color: var(--dark-color);
   padding: 8px 0px;
   border-radius: 6px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(219, 94, 10, 0.1);
   transition: 0.3s;
 }
 
@@ -1007,17 +1004,16 @@
 }
 
 .deal-2:hover{
-  background-color: var(--primary-color);
   color: var(--dark-color);
   padding: 8px 0px;
   border-radius: 6px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(219, 94, 10, 0.1);
   transition: 0.3s;
 }
 
 .deal-1 .strike-1{
   position: absolute;
-  top: 87%;
+  top: 84%;
   left: 10em;
   text-decoration-line: line-through;
   color: #666666;
@@ -1029,8 +1025,8 @@
 
 .deal-2 .strike-2{
   position: absolute;
-  top: 87%;
-  left: 11em;
+  top: 84%;
+  left: 10em;
   font-weight: 500;
   font-size: small;
   text-decoration-line: line-through;
@@ -1041,7 +1037,7 @@
 
 .deal-3 .strike-3{
   position: absolute;
-  top: 87%;
+  top: 84%;
   left: 12em;
   text-decoration-line: line-through;
   color: #666666;
@@ -1054,7 +1050,7 @@
 .deal-4 .strike-4{
   position: absolute;
   top: 85%;
-  left: 11.5em;
+  left: 11em;
   text-decoration-line: line-through;
   color: #666666;
   padding-left: 1em;
@@ -1097,3 +1093,128 @@
   border-radius: 6px;
   color: red;
 }
+
+.container-3 .arrow{
+  position: absolute;
+  top: 145em;
+  left: 43em;
+  height: 0%;
+  width: 0%;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.container-3 .arrow:hover{
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+  padding: 8px 0px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.container-3 .arrow-1{
+  position: absolute;
+  top: 145em;
+  left: 39em;
+  height: 0%;
+  width: 0%;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.container-3 .arrow-1:hover{
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+  padding: 8px 0px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.container-4{
+  height: max-content;
+  display:flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.container-4 h1{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--dark-color);
+  font-family: var(--font-family-alt);
+}
+
+.container-4 h1 span a{
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: var(--font-family-alt);
+}
+
+.container-4 p{
+  padding-left:20em;
+  padding-right: 19em;
+  padding-top: 2em;
+  text-align: center;
+  font-size: 18px;
+  color: #666666;
+}
+
+.container-4 .tree-1{
+  position: absolute;
+  top: 155em;
+  left: 60em;
+  height: 7em;
+  width: 9em;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.container-4 .arr{
+  margin-left: 65em;
+}
+
+.container-4 .plan{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.plan a{
+ text-decoration: none;
+ color:#1a1a1a;
+}
+
+.plan .price{
+  color:var(--primary-color);
+}
+
+.plan-1:hover{
+  color: var(--dark-color);
+  padding: 8px 0px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.plan-2:hover{
+  color: var(--dark-color);
+  padding: 8px 0px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.plan-3:hover{
+  color:var(--dark-color);
+  padding: 8px 0px;
+  border-radius: 6px;
+  box-shadow: 0
+}
+
+
+
