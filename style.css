@@ -34,13 +34,14 @@
 
     .container-1 {
       height: 900px;
+      display: flex;
     }
 
     nav {
       background: var(--light-color);
       position: sticky;
       top: 0;
-      width: 100%;
+      width: 120%;
       z-index: 100;
     }
 
@@ -1176,6 +1177,12 @@
   margin-left: 65em;
 }
 
+.container-4 h3{
+  font-weight: 500;
+  font-size: 18px;
+  display: inline-block;
+}
+
 .container-4 .plan{
   justify-content: space-between;
   display: flex;
@@ -1213,8 +1220,16 @@
   color:var(--dark-color);
   padding: 8px 0px;
   border-radius: 6px;
-  box-shadow: 0
+  box-shadow: 0;
 }
 
+.container-4 h4{
+  font-weight: 500;
+  font-size: medium;
+  color: #666666;
+  display: inline-block;
+
+
+}
 
 
